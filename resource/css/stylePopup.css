@@ -1,0 +1,93 @@
+/**************************************************************************
+CSS POPUP 
+***************************************************************************/
+#contenedorPopup{
+	position:relative;
+}
+.titulo1{
+	border: 1px solid #fff111;
+	background: #fd6d22;
+	color:#FFFFFF;
+	margin: 3px 3px;
+	padding:5px 15px;		
+	text-shadow: 2px 2px 0px #474747;
+	/* border redondeada */
+	-webkit-border-radius: .2em;
+	-moz-border-radius: .2em;
+	border-radius: .2em;
+
+}
+/**************************************************************************
+CSS POPUP FORMULARIO
+***************************************************************************/
+#contenedorPopup fieldset{
+	border-radius:4px;
+	border: solid #0072C6 1px;
+	padding: 5px 15px;
+	margin: 10px 10px;
+}
+#contenedorPopup fieldset  div:hover {
+	background: #FFFF7D; 
+}
+#contenedorPopup legend{
+	color: #0072C6;
+	font-size: 13px;
+	text-shadow: 1px 1px 0px gray;
+}
+#contenedorPopup label {
+	color: #474747;
+	width: 150px;
+	float: left;
+	font-weight:bold;	
+}
+#contenedorPopup input{
+	border:1px solid #474747;
+	padding: 2px;
+}
+#contenedorPopup input:focus {
+	border:1px solid #0072c6;
+	-webkit-box-shadow: 0px 0px 2px 0px #0072c6;
+	-moz-box-shadow: 0px 0px 2px 0px #0072c6;
+	box-shadow: 0px 0px 2px 0px #0072c6;
+}
+.filaDiv{
+	margin:1px 0;
+	padding:1px 0;
+	clear: both;
+}
+/**************************************************************************
+CSS POPUP BOTON
+***************************************************************************/
+#cssboton{
+	margin: 25px;
+	text-align: center;
+}
+.a_demo_four {
+	margin:5px;
+	background-color:#3bb3e0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	color:#fff;
+	position:relative;
+	padding:10px 25px 10px 15px;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+
+.a_demo_four:active {
+	top:1px;
+	
+	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
