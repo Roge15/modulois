@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(../Fondos/Fondo02.png);
+	font:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+
+#contenedor{
+    margin: 10px auto;
+    width: 95%;
+    -webkit-box-shadow: 0 3px 13px rgba(0,0,0, .4);
+    -moz-box-shadow: 0 3px 13px rgba(0,0,0, .4);
+    box-shadow: 0 1px 3px rgba(0,0,0, .4);
+}
+header
+{
+    background: #ffffff;
+    text-align: center;
+    border-bottom: 6px solid #fd6d22;
+}
+section{
+    background: #ffffff;
+}
+footer{
+    background: #fd6d22;
+    height: 50px;
+    margin-top: 20px;
+}
+h1{
+    margin: 0;
+    padding: 10px 30px;
+    color: #000066;
+    font-size: 20px;
+    text-shadow: 2px 1px 0 gray; 
+}
+.tabla1{
+    border: 1px solid #ffffff;
+    background-color:gray;
+    color:#FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    padding: 3px 0; 
+}
+.tabla2{
+    border: 1px solid gray;
+    padding: 3px 0; 
+}
